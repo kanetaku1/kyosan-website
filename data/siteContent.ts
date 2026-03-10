@@ -1,11 +1,11 @@
 import type { ProcessStep, BankRow } from '@/lib/types';
 
 export const processSteps: ProcessStep[] = [
-  { step: '01', title: '内容の確定', text: 'メニューを決定。不明点は担当者へ' },
-  { step: '02', title: 'フォーム送信', text: '専用フォームから必要事項を回答' },
-  { step: '03', title: '原稿データ提出', text: 'ロゴや広告案を規定形式で送付' },
-  { step: '04', title: 'ご入金', text: '8月28日までに指定口座へ振込' },
-  { step: '05', title: '掲載・当日', text: '順次公開し、当日会場にて掲出' },
+  { step: '01', title: '内容の確定', text: 'メニューを決定。不明点は担当者へご連絡ください。' },
+  { step: '02', title: 'フォーム送信', text: '専用フォームより必要事項の回答をお願いします。' },
+  { step: '03', title: '原稿データ提出', text: '各期限を守り、ロゴや広告案を規定形式でご提出ください。' },
+  { step: '04', title: 'ご入金', text: '担当者より請求書を発行させていただきます。8月28日までに指定口座への振込をよろしくお願いいたします。' },
+  { step: '05', title: '掲載・当日', text: '広告は順次公開させていただきます。当日会場にてお待ちしております。' },
 ];
 
 export const bankRows: BankRow[] = [
@@ -18,9 +18,11 @@ export const bankRows: BankRow[] = [
 
 export const contact = {
   email: 'nutfes_kyosan@googlegroups.com',
-  instagram: 'https://instagram.com/nutfes_shogai',
-  instagramHandle: '@nutfes_shogai',
+  instagram: 'https://instagram.com/nutfes',
+  instagramHandle: '@nutfes',
 };
+
+export const pdfUrl = 'https://drive.google.com/file/d/1UTkVXOiqtxtNciPXvmtntEyIrSpxp1-S/view';
 
 export const disclaimerItems = [
   '天災、感染症、その他不可抗力により技大祭が中止となった場合でも、既に発生した準備費用等に充てるため、協賛金のご返金は致しかねます。予めご了承ください。',
@@ -38,15 +40,15 @@ export const greeting = {
   signature: {
     role: '技大祭実行委員会 委員長',
     name: '齊藤 翔太',
-    org: '長岡技術科学大学 技大祭産学局',
+    org: '長岡技術科学大学 技大祭実行委員会産学局',
   },
 };
 
 export const transferDeadline = '2026年8月28日(金)';
 
-/** 広告デザインおよび入稿規定（共通・1か所表示用） */
+/** 広告デザイン・入稿のご案内（共通・1か所表示用） */
 export const adDesignGuidelines = {
-  title: '広告デザインおよび入稿規定',
+  title: '広告デザイン・入稿のご案内',
   intro: '一貫した品質を保つため、以下の規定を遵守いただけますようお願い申し上げます。',
   productionTypes: {
     heading: '制作区分',

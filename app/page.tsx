@@ -53,9 +53,9 @@ export default function Page() {
       )}
 
       <SponsorshipMenuSection menus={sponsorshipMenus} onOpenDetail={setActiveMenu} />
-      <ProcessSection />
       <AdDesignSection />
-      <BankSection />
+      <ProcessSection />
+      {/* <BankSection /> */}
       <Footer />
 
       <ScrollToTopButton scrolled={scrolled} />

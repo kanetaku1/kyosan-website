@@ -1,13 +1,14 @@
 'use client';
 
-import { Calendar, ChevronRight, Users, Megaphone } from 'lucide-react';
+import { Calendar, ChevronRight, FileText, ExternalLink } from 'lucide-react';
+import { pdfUrl } from '@/data/siteContent';
 
 export function HeroSection() {
   return (
-    <header className="pt-40 pb-24 px-6 relative overflow-hidden bg-white">
+    <header id="top"className="pt-40 pb-24 px-6 relative overflow-hidden bg-white">
       <div className="absolute top-0 right-0 w-1/2 h-full bg-blue-50/50 skew-x-12 transform origin-right" />
       <div className="container mx-auto max-w-6xl relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-1 gap-12 items-center">
           <div>
             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-1.5 rounded-full text-sm font-bold mb-6">
               <Calendar size={16} />
@@ -33,35 +34,21 @@ export function HeroSection() {
                 メニューを見る <ChevronRight size={20} />
               </a>
               <a
+                href={pdfUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-white border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-2xl font-bold hover:border-blue-300 hover:text-blue-600 transition-all"
+              >
+                <FileText size={20} />
+                案内PDFを開く <ExternalLink size={18} />
+              </a>
+              <a
                 href="#contact"
                 className="flex items-center gap-2 bg-white border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-2xl font-bold hover:border-blue-300 hover:text-blue-600 transition-all"
               >
                 お問い合わせ
               </a>
             </div>
-          </div>
-          <div className="hidden lg:block relative">
-            <div className="bg-blue-600 rounded-[3rem] p-12 aspect-square flex flex-col justify-center text-white shadow-2xl relative z-10">
-              <div className="text-8xl font-black mb-4">45th</div>
-              <div className="text-2xl font-bold opacity-90 mb-8 tracking-wide">Gidaisai Festival</div>
-              <div className="space-y-4">
-                <div className="flex items-center gap-4 bg-white/10 p-5 rounded-3xl backdrop-blur-sm border border-white/10">
-                  <Users className="text-blue-200" size={32} />
-                  <div>
-                    <p className="text-xs uppercase opacity-70 tracking-widest">参加者想定</p>
-                    <p className="font-bold text-lg">学生・地域住民 数千名</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4 bg-white/10 p-5 rounded-3xl backdrop-blur-sm border border-white/10">
-                  <Megaphone className="text-blue-200" size={32} />
-                  <div>
-                    <p className="text-xs uppercase opacity-70 tracking-widest">SNSリーチ</p>
-                    <p className="font-bold text-lg">フォロワー 2,300人+</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" />
           </div>
         </div>
       </div>

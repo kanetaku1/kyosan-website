@@ -13,13 +13,15 @@ export function Nav({ scrolled, isMenuOpen, onToggleMenu, onCloseMenu }: NavProp
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'
+        isMenuOpen || scrolled ? 'bg-white shadow-sm py-3' : 'bg-transparent py-5'
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2 font-bold text-xl tracking-tight text-blue-700">
           <Award className="text-blue-600" />
-          <span>第45回技大祭 企業協賛</span>
+          <a href="#top" className="flex items-center gap-2">
+            <span>第45回技大祭 企業協賛</span>
+          </a>
         </div>
 
         <div className="hidden lg:flex items-center gap-8 text-sm font-semibold">
@@ -29,8 +31,11 @@ export function Nav({ scrolled, isMenuOpen, onToggleMenu, onCloseMenu }: NavProp
           <a href="#menu" className="hover:text-blue-600 transition-colors">
             協賛メニュー
           </a>
+          <a href="#ad-guidelines" className="hover:text-blue-600 transition-colors">
+            入稿・デザイン
+          </a>
           <a href="#process" className="hover:text-blue-600 transition-colors">
-            お申し込み
+            手順
           </a>
           <a href="#contact" className="hover:text-blue-600 transition-colors">
             お問い合わせ
@@ -68,8 +73,11 @@ export function Nav({ scrolled, isMenuOpen, onToggleMenu, onCloseMenu }: NavProp
             <a href="#menu" className="text-2xl font-bold border-b border-slate-100 pb-4" onClick={onCloseMenu}>
               協賛メニュー
             </a>
+            <a href="#ad-guidelines" className="text-2xl font-bold border-b border-slate-100 pb-4" onClick={onCloseMenu}>
+              入稿・デザイン
+            </a>
             <a href="#process" className="text-2xl font-bold border-b border-slate-100 pb-4" onClick={onCloseMenu}>
-              お申し込み
+              手順
             </a>
             <a href="#contact" className="text-2xl font-bold border-b border-slate-100 pb-4" onClick={onCloseMenu}>
               お問い合わせ

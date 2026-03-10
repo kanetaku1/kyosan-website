@@ -5,7 +5,7 @@ import { contact, disclaimerItems } from '@/data/siteContent';
 
 export function Footer() {
   return (
-    <footer id="contact" className="bg-slate-900 text-white pt-24">
+    <footer id="contact" className="bg-slate-800 text-white pt-24">
       <div className="container mx-auto max-w-6xl px-6 pb-20">
         <div className="grid lg:grid-cols-2 gap-16 md:gap-20 items-start">
           <div>
