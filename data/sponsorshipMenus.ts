@@ -29,7 +29,7 @@ export const sponsorshipMenusData: SponsorshipMenuData[] = [
 
 【提出期限】
 2026年7月3日(金)`,
-    pamphletImages: ['/brochure_cost1.jpg', '/brochure_cost2.jpg', '/brochure.jpg', '/brochure_mosaic.png'],
+    pamphletImages: ['/brochure_cost_1.png', '/brochure_cost_2.png', '/brochure.jpg', '/brochure_mosaic.png'],
     pamphletNote:
       '※協賛手続きの簡素化のため、昨年度よりオプションのクーポン券は廃止いたしました。クーポンの掲載をご希望の場合は、広告内への掲載をお願い申し上げます。その際は、切り取るタイプではなく、QRコードや、パンフレット表紙へのスタンプ等の方式をおすすめいたします。広告作成を実行委員にご依頼いただく場合も、クーポンをデザインの中に組み込ませることが可能ですのでお申し付けください。',
   },
