@@ -80,7 +80,7 @@ export const sponsorshipMenusData: SponsorshipMenuData[] = [
     details: [
       '¥20,000／先着6社',
       '1万回以上インプレッション保証・2ページ構成',
-      '提出期限：2026年7月16日(木)',
+      '提出期限：2026年7月17日(金)',
       '8月下旬順次投稿・永続アーカイブ',
     ],
     detailText: `約2,300人のフォロワーを持つInstagram技大祭公式アカウント(@nutfes)において、貴社広告を投稿いただけます。
@@ -96,7 +96,7 @@ export const sponsorshipMenusData: SponsorshipMenuData[] = [
 ・8月下旬順次投稿、永続アーカイブ
 
 【提出期限】
-2026年7月16日(木)
+2026年7月17日(金)
 
 【制作・入稿】
 ・投稿内容は事前に審査・許諾いたします
@@ -124,16 +124,16 @@ export const sponsorshipMenusData: SponsorshipMenuData[] = [
       'タイプA(袖)：¥100,000／先着2社',
       'タイプB(背中裾)：¥80,000／先着2口',
       'タイプC(背中首下)：¥100,000／先着1社',
-      '提出期限：2026年7月16日(木)',
+      '提出期限：2026年7月17日(金)',
     ],
     detailText: `【ご案内】
 ・細い線(1mm以下)は滲む場合があります
 ・完成ユニフォーム(2着以上は有料)を後日送付いたします
 ・印刷データは実行委員会にて作成いたします`,
     uniformTypes: [
-      { label: 'タイプA（袖）', price: '¥100,000', limit: '先着2社', detail: '袖部分にロゴ及び企業名を掲載いたします。', deadline: '2026年7月16日(木)' },
-      { label: 'タイプB（背中裾）', price: '¥80,000', limit: '先着2口', detail: '背中裾部分にロゴもしくは企業名を掲載いたします。', deadline: '2026年7月16日(木)' },
-      { label: 'タイプC（背中首下）', price: '¥100,000', limit: '先着1社', detail: '背中首下部分にロゴもしくは企業名を掲載いたします。', deadline: '2026年7月16日(木)' },
+      { label: 'タイプA（袖）', price: '¥100,000', limit: '先着2社', detail: '袖部分にロゴ及び企業名を掲載いたします。', deadline: '2026年7月17日(金)' },
+      { label: 'タイプB（背中裾）', price: '¥80,000', limit: '先着2口', detail: '背中裾部分にロゴもしくは企業名を掲載いたします。', deadline: '2026年7月17日(金)' },
+      { label: 'タイプC（背中首下）', price: '¥100,000', limit: '先着1社', detail: '背中首下部分にロゴもしくは企業名を掲載いたします。', deadline: '2026年7月17日(金)' },
     ],
     uniformImages: ['/T.png', '/44th_uniform.png', '/uniform_back.png'],
   },
