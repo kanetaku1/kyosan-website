@@ -131,9 +131,9 @@ export const sponsorshipMenusData: SponsorshipMenuData[] = [
 ・完成ユニフォーム(2着以上は有料)を後日送付いたします
 ・印刷データは実行委員会にて作成いたします`,
     uniformTypes: [
-      { label: 'タイプA（袖）', price: '¥100,000', limit: '先着2社', detail: '袖部分にロゴ及び企業名を掲載いたします。', deadline: '2026年7月17日(金)' },
-      { label: 'タイプB（背中裾）', price: '¥80,000', limit: '先着2口', detail: '背中裾部分にロゴもしくは企業名を掲載いたします。', deadline: '2026年7月17日(金)' },
-      { label: 'タイプC（背中首下）', price: '¥100,000', limit: '先着1社', detail: '背中首下部分にロゴもしくは企業名を掲載いたします。', deadline: '2026年7月17日(金)' },
+      { label: 'タイプA（袖）', price: '¥100,000', limit: '先着2社', detail: '袖部分にロゴおよび企業名を掲載いたします。', deadline: '2026年7月17日(金)' },
+      { label: 'タイプB（背中裾）', price: '¥80,000', limit: '先着2口', detail: '背中裾部分にロゴおよび企業名を掲載いたします。', deadline: '2026年7月17日(金)' },
+      { label: 'タイプC（背中首下）', price: '¥100,000', limit: '先着1社', detail: '背中首下部分にロゴおよび企業名を掲載いたします。', deadline: '2026年7月17日(金)' },
     ],
     uniformImages: ['/T.png', '/44th_uniform.png', '/uniform_back.png'],
   },
@@ -229,7 +229,10 @@ export const sponsorshipMenusData: SponsorshipMenuData[] = [
 
 【設置・お渡し】
 来場者動線等PR効果の高い場所へ設置いたします。場所指定はいたしかねます。複数本は可能な限りまとめて配置いたします
-当日会場にお越しの場合は現物お持ち帰りいただけます（郵送返却は行っておりません）`,
+当日会場にお越しの場合は現物お持ち帰りいただけます（郵送返却は行っておりません）
+
+【提出期限】
+2026年7月31日(金)`,
     noboriImages: ['/nobori.png', '/nobori_out.jpg'],
   },
   {
